@@ -1,0 +1,110 @@
+/* No se por que no se centraban los textos en los links*/
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #D9C7C5;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    margin-top: 10%;
+    color: #821117;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    color: #821117;
+}
+
+p {
+    color: #821117;
+    font-family: 'Paytone One', sans-serif;
+    text-decoration: underline;
+
+}
+
+nav {
+    margin: 0 auto 0 33%;
+}
+button {
+    display: inline-block;
+    list-style: none;
+    margin: 2em auto;
+    height: 2em;
+    font-size: 1.2rem;
+    font-family:'Archivo Black', sans-serif;
+    border: none;
+    width: 150px;
+    color: #821117;
+    text-align: center;
+    padding-right: 10%;
+}
+
+/* --------links-------- */
+
+a {
+    color: #821117;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:visited {
+    color: #821117;
+}
+  
+a:hover {
+    color: #821117;
+}
+  
+a:active {
+    color: #821117;
+}
+
+
+/*-----------FORM---------*/
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font-family: sans-serif;
+}
+
+input[type="text"] {
+    border: none;
+    display: block;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="date"] {
+    border: none;
+    display: block;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+fieldset {
+    display: block;
+    border: none;
+    padding: 2rem 0;
+    width: 35%;
+    margin-left: 33%;
+  }
+
+  hr {
+    border-color: #821117;
+    width: 10%;
+  }
